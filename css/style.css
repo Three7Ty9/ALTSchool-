@@ -1,0 +1,115 @@
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12px;
+    
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+li{
+    margin: 12px;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.index-container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    Height: 500px;
+    padding: 20px;
+}
+
+p{
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.box1{
+    height:100%;
+    width:40%;
+    /* border: 1px solid brown; */
+    padding: 12px;
+
+}
+.box2{
+    float: left;
+    /* margin-left: 125px;
+    margin-top: 20px; */
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid brown;
+    
+    /* height:100%; */
+    /* radius:30%; */
+    /* width:30%; */
+}
+img{
+    height:100%;
+    width:100%;
+}
+
+.second{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/*Calculator Table formatting */
+
+.cal-container{
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+
+
+
+/*CSS Animations*/
+.para{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite; /*To repeat Animation*/
+}
+@keyframes slidein{
+    from{
+        margin-left:100%;
+        width:300%;
+        color: red;
+    }
+    to{
+        margin-left:0%;
+        width:100%;
+        color: blueviolet;
+    }
+}
